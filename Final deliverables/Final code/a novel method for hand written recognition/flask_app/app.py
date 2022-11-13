@@ -7,7 +7,7 @@ from keras.preprocessing import image
 from PIL import Image
 from werkzeug.utils import redirect, secure_filename
 
-UPLOAD_FOLDER = 'C:\Users\Happy\Desktop\flask_app'
+UPLOAD_FOLDER = 'C:/Users/Happy/Desktop/flask_app'
 
 app = Flask(__name__,template_folder='template')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
